@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/fetch-data', 'ApisController@data')->name('fetch-data');
+Route::get('/all', 'ApisController@allMovies')->name('all');
+
