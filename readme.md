@@ -13,7 +13,8 @@
   </div>
   <br>
   <h1>Installtion</h1>
-<hr>
+
+Clone this project git@github.com:nraxz/moviesapi.git
 
 <p>Add this to your composer.json file, in the require object: </p>
 
